@@ -1,0 +1,165 @@
+-- Merging decision tree log ---
+manifest
+ADDED from F:\PrinterToolsA\app\src\main\AndroidManifest.xml:2:1-90:12
+INJECTED from F:\PrinterToolsA\app\src\main\AndroidManifest.xml:2:1-90:12
+INJECTED from F:\PrinterToolsA\app\src\main\AndroidManifest.xml:2:1-90:12
+INJECTED from F:\PrinterToolsA\app\src\main\AndroidManifest.xml:2:1-90:12
+INJECTED from F:\PrinterToolsA\app\src\main\AndroidManifest.xml:2:1-90:12
+INJECTED from F:\PrinterToolsA\app\src\main\AndroidManifest.xml:2:1-90:12
+INJECTED from F:\PrinterToolsA\app\src\main\AndroidManifest.xml:2:1-90:12
+	package
+		ADDED from F:\PrinterToolsA\app\src\main\AndroidManifest.xml:3:5-33
+		INJECTED from F:\PrinterToolsA\app\src\main\AndroidManifest.xml
+		INJECTED from F:\PrinterToolsA\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from F:\PrinterToolsA\app\src\main\AndroidManifest.xml:5:5-35
+		INJECTED from F:\PrinterToolsA\app\src\main\AndroidManifest.xml
+		INJECTED from F:\PrinterToolsA\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from F:\PrinterToolsA\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from F:\PrinterToolsA\app\src\main\AndroidManifest.xml:4:5-28
+		INJECTED from F:\PrinterToolsA\app\src\main\AndroidManifest.xml
+		INJECTED from F:\PrinterToolsA\app\src\main\AndroidManifest.xml
+uses-feature#android.hardware.usb.host
+ADDED from F:\PrinterToolsA\app\src\main\AndroidManifest.xml:7:5-62
+	android:name
+		ADDED from F:\PrinterToolsA\app\src\main\AndroidManifest.xml:7:19-59
+uses-sdk
+ADDED from F:\PrinterToolsA\app\src\main\AndroidManifest.xml:9:5-11:41
+INJECTED from F:\PrinterToolsA\app\src\main\AndroidManifest.xml:9:5-11:41
+INJECTED from F:\PrinterToolsA\app\src\main\AndroidManifest.xml:9:5-11:41
+INJECTED from F:\PrinterToolsA\app\src\main\AndroidManifest.xml:9:5-11:41
+INJECTED from F:\PrinterToolsA\app\src\main\AndroidManifest.xml:9:5-11:41
+	android:targetSdkVersion
+		ADDED from F:\PrinterToolsA\app\src\main\AndroidManifest.xml:11:9-38
+		INJECTED from F:\PrinterToolsA\app\src\main\AndroidManifest.xml
+		INJECTED from F:\PrinterToolsA\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from F:\PrinterToolsA\app\src\main\AndroidManifest.xml:10:9-35
+		INJECTED from F:\PrinterToolsA\app\src\main\AndroidManifest.xml
+		INJECTED from F:\PrinterToolsA\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from F:\PrinterToolsA\app\src\main\AndroidManifest.xml:15:4-80
+	android:name
+		ADDED from F:\PrinterToolsA\app\src\main\AndroidManifest.xml:15:21-77
+uses-permission#android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+ADDED from F:\PrinterToolsA\app\src\main\AndroidManifest.xml:16:5-84
+	android:name
+		ADDED from F:\PrinterToolsA\app\src\main\AndroidManifest.xml:16:22-81
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from F:\PrinterToolsA\app\src\main\AndroidManifest.xml:18:5-19:23
+	android:name
+		ADDED from F:\PrinterToolsA\app\src\main\AndroidManifest.xml:18:22-73
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from F:\PrinterToolsA\app\src\main\AndroidManifest.xml:20:5-21:23
+	android:name
+		ADDED from F:\PrinterToolsA\app\src\main\AndroidManifest.xml:20:22-73
+uses-permission#android.permission.INTERNET
+ADDED from F:\PrinterToolsA\app\src\main\AndroidManifest.xml:22:5-67
+	android:name
+		ADDED from F:\PrinterToolsA\app\src\main\AndroidManifest.xml:22:22-64
+uses-permission#android.permission.BLUETOOTH
+ADDED from F:\PrinterToolsA\app\src\main\AndroidManifest.xml:25:5-68
+	android:name
+		ADDED from F:\PrinterToolsA\app\src\main\AndroidManifest.xml:25:22-65
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from F:\PrinterToolsA\app\src\main\AndroidManifest.xml:26:5-74
+	android:name
+		ADDED from F:\PrinterToolsA\app\src\main\AndroidManifest.xml:26:22-71
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from F:\PrinterToolsA\app\src\main\AndroidManifest.xml:27:5-78
+	android:name
+		ADDED from F:\PrinterToolsA\app\src\main\AndroidManifest.xml:27:22-76
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from F:\PrinterToolsA\app\src\main\AndroidManifest.xml:28:5-80
+	android:name
+		ADDED from F:\PrinterToolsA\app\src\main\AndroidManifest.xml:28:22-78
+uses-permission#android.permission.CLEAR_APP_CACHE
+ADDED from F:\PrinterToolsA\app\src\main\AndroidManifest.xml:35:5-74
+	android:name
+		ADDED from F:\PrinterToolsA\app\src\main\AndroidManifest.xml:35:22-71
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from F:\PrinterToolsA\app\src\main\AndroidManifest.xml:36:5-75
+	android:name
+		ADDED from F:\PrinterToolsA\app\src\main\AndroidManifest.xml:36:22-72
+application
+ADDED from F:\PrinterToolsA\app\src\main\AndroidManifest.xml:39:5-88:19
+	android:label
+		ADDED from F:\PrinterToolsA\app\src\main\AndroidManifest.xml:42:9-41
+	android:icon
+		ADDED from F:\PrinterToolsA\app\src\main\AndroidManifest.xml:41:9-45
+	android:allowBackup
+		ADDED from F:\PrinterToolsA\app\src\main\AndroidManifest.xml:40:9-35
+	android:theme
+		ADDED from F:\PrinterToolsA\app\src\main\AndroidManifest.xml:43:9-40
+activity#com.qs.printer.activity.MainActivity
+ADDED from F:\PrinterToolsA\app\src\main\AndroidManifest.xml:44:9-59:20
+	android:label
+		ADDED from F:\PrinterToolsA\app\src\main\AndroidManifest.xml:46:13-45
+	android:name
+		ADDED from F:\PrinterToolsA\app\src\main\AndroidManifest.xml:45:13-64
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from F:\PrinterToolsA\app\src\main\AndroidManifest.xml:47:13-51:29
+action#android.intent.action.MAIN
+ADDED from F:\PrinterToolsA\app\src\main\AndroidManifest.xml:48:17-69
+	android:name
+		ADDED from F:\PrinterToolsA\app\src\main\AndroidManifest.xml:48:25-66
+category#android.intent.category.LAUNCHER
+ADDED from F:\PrinterToolsA\app\src\main\AndroidManifest.xml:50:17-77
+	android:name
+		ADDED from F:\PrinterToolsA\app\src\main\AndroidManifest.xml:50:27-74
+intent-filter#action:name:android.hardware.usb.action.USB_DEVICE_ATTACHED
+ADDED from F:\PrinterToolsA\app\src\main\AndroidManifest.xml:52:13-54:29
+action#android.hardware.usb.action.USB_DEVICE_ATTACHED
+ADDED from F:\PrinterToolsA\app\src\main\AndroidManifest.xml:53:17-90
+	android:name
+		ADDED from F:\PrinterToolsA\app\src\main\AndroidManifest.xml:53:25-87
+meta-data#android.hardware.usb.action.USB_DEVICE_ATTACHED
+ADDED from F:\PrinterToolsA\app\src\main\AndroidManifest.xml:56:13-58:57
+	android:resource
+		ADDED from F:\PrinterToolsA\app\src\main\AndroidManifest.xml:58:17-54
+	android:name
+		ADDED from F:\PrinterToolsA\app\src\main\AndroidManifest.xml:57:17-79
+activity#com.qs.printer.activity.PrintSettingActivity
+ADDED from F:\PrinterToolsA\app\src\main\AndroidManifest.xml:60:9-63:20
+	android:label
+		ADDED from F:\PrinterToolsA\app\src\main\AndroidManifest.xml:62:13-45
+	android:name
+		ADDED from F:\PrinterToolsA\app\src\main\AndroidManifest.xml:61:13-72
+activity#com.qs.printer.activity.PrintActivity
+ADDED from F:\PrinterToolsA\app\src\main\AndroidManifest.xml:64:9-67:20
+	android:label
+		ADDED from F:\PrinterToolsA\app\src\main\AndroidManifest.xml:66:13-45
+	android:name
+		ADDED from F:\PrinterToolsA\app\src\main\AndroidManifest.xml:65:13-65
+activity#com.qs.printer.activity.PrintTextActivity
+ADDED from F:\PrinterToolsA\app\src\main\AndroidManifest.xml:68:9-71:20
+	android:label
+		ADDED from F:\PrinterToolsA\app\src\main\AndroidManifest.xml:70:13-45
+	android:name
+		ADDED from F:\PrinterToolsA\app\src\main\AndroidManifest.xml:69:13-69
+activity#com.qs.printer.activity.PrintImageActivity
+ADDED from F:\PrinterToolsA\app\src\main\AndroidManifest.xml:72:9-75:20
+	android:label
+		ADDED from F:\PrinterToolsA\app\src\main\AndroidManifest.xml:74:13-45
+	android:name
+		ADDED from F:\PrinterToolsA\app\src\main\AndroidManifest.xml:73:13-70
+activity#com.qs.printer.activity.PrintCmdActivity
+ADDED from F:\PrinterToolsA\app\src\main\AndroidManifest.xml:76:9-79:20
+	android:label
+		ADDED from F:\PrinterToolsA\app\src\main\AndroidManifest.xml:78:13-45
+	android:name
+		ADDED from F:\PrinterToolsA\app\src\main\AndroidManifest.xml:77:13-68
+activity#com.qs.printer.activity.BlackMarkActivity
+ADDED from F:\PrinterToolsA\app\src\main\AndroidManifest.xml:80:9-83:20
+	android:label
+		ADDED from F:\PrinterToolsA\app\src\main\AndroidManifest.xml:82:13-45
+	android:name
+		ADDED from F:\PrinterToolsA\app\src\main\AndroidManifest.xml:81:13-69
+activity#com.qs.printer.activity.UpdateActivity
+ADDED from F:\PrinterToolsA\app\src\main\AndroidManifest.xml:84:11-87:20
+	android:label
+		ADDED from F:\PrinterToolsA\app\src\main\AndroidManifest.xml:86:13-45
+	android:name
+		ADDED from F:\PrinterToolsA\app\src\main\AndroidManifest.xml:85:13-66

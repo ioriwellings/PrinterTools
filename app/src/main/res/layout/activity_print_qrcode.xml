@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/et_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10" >
+
+        <requestFocus />
+    </EditText>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/bt_2d"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/str_printword" 
+            android:textSize="23sp"
+            />
+        
+        <TextView 
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="wight"
+            />
+        <EditText 
+            android:id="@+id/qrWight"
+            android:layout_height="wrap_content"
+            android:layout_width="60dp"
+            android:text="300"
+            android:inputType="number"
+            />
+           <TextView 
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="wight"
+            />
+        <EditText 
+            android:id="@+id/qrHight"
+            android:layout_height="wrap_content"
+            android:layout_width="60dp"
+            android:text="300"
+            android:inputType="number"
+            />
+    </LinearLayout>
+    <ImageView 
+        android:id="@+id/image_qr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+</LinearLayout>

@@ -1,0 +1,134 @@
+[
+    {
+        "merged": "F:\\PrinterToolsA\\app\\build\\intermediates\\res\\merged\\debug\\xml_device_filter.xml.flat",
+        "source": "F:\\PrinterToolsA\\app\\src\\main\\res\\xml\\device_filter.xml"
+    },
+    {
+        "merged": "F:\\PrinterToolsA\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_printsetting.xml.flat",
+        "source": "F:\\PrinterToolsA\\app\\src\\main\\res\\layout\\activity_printsetting.xml"
+    },
+    {
+        "merged": "F:\\PrinterToolsA\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_print_text.xml.flat",
+        "source": "F:\\PrinterToolsA\\app\\src\\main\\res\\layout\\activity_print_text.xml"
+    },
+    {
+        "merged": "F:\\PrinterToolsA\\app\\build\\intermediates\\res\\merged\\debug\\drawable_psam.png.flat",
+        "source": "F:\\PrinterToolsA\\app\\src\\main\\res\\drawable\\psam.png"
+    },
+    {
+        "merged": "F:\\PrinterToolsA\\app\\build\\intermediates\\res\\merged\\debug\\layout_update_layout.xml.flat",
+        "source": "F:\\PrinterToolsA\\app\\src\\main\\res\\layout\\update_layout.xml"
+    },
+    {
+        "merged": "F:\\PrinterToolsA\\app\\build\\intermediates\\res\\merged\\debug\\drawable_edittext.xml.flat",
+        "source": "F:\\PrinterToolsA\\app\\src\\main\\res\\drawable\\edittext.xml"
+    },
+    {
+        "merged": "F:\\PrinterToolsA\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_print_image.xml.flat",
+        "source": "F:\\PrinterToolsA\\app\\src\\main\\res\\layout\\activity_print_image.xml"
+    },
+    {
+        "merged": "F:\\PrinterToolsA\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_print_barcode.xml.flat",
+        "source": "F:\\PrinterToolsA\\app\\src\\main\\res\\layout\\activity_print_barcode.xml"
+    },
+    {
+        "merged": "F:\\PrinterToolsA\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_timg.jpg.flat",
+        "source": "F:\\PrinterToolsA\\app\\src\\main\\res\\drawable-hdpi\\timg.jpg"
+    },
+    {
+        "merged": "F:\\PrinterToolsA\\app\\build\\intermediates\\res\\merged\\debug\\menu_main.xml.flat",
+        "source": "F:\\PrinterToolsA\\app\\src\\main\\res\\menu\\main.xml"
+    },
+    {
+        "merged": "F:\\PrinterToolsA\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_demo.jpg.flat",
+        "source": "F:\\PrinterToolsA\\app\\src\\main\\res\\drawable-hdpi\\demo.jpg"
+    },
+    {
+        "merged": "F:\\PrinterToolsA\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_print_cmd.xml.flat",
+        "source": "F:\\PrinterToolsA\\app\\src\\main\\res\\layout\\activity_print_cmd.xml"
+    },
+    {
+        "merged": "F:\\PrinterToolsA\\app\\build\\intermediates\\res\\merged\\debug\\drawable_listview.xml.flat",
+        "source": "F:\\PrinterToolsA\\app\\src\\main\\res\\drawable\\listview.xml"
+    },
+    {
+        "merged": "F:\\PrinterToolsA\\app\\build\\intermediates\\res\\merged\\debug\\drawable_testpic.jpg.flat",
+        "source": "F:\\PrinterToolsA\\app\\src\\main\\res\\drawable\\testpic.jpg"
+    },
+    {
+        "merged": "F:\\PrinterToolsA\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_launcher.png.flat",
+        "source": "F:\\PrinterToolsA\\app\\src\\main\\res\\drawable-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "F:\\PrinterToolsA\\app\\build\\intermediates\\res\\merged\\debug\\drawable_device_name.xml.flat",
+        "source": "F:\\PrinterToolsA\\app\\src\\main\\res\\drawable\\device_name.xml"
+    },
+    {
+        "merged": "F:\\PrinterToolsA\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main_items.xml.flat",
+        "source": "F:\\PrinterToolsA\\app\\src\\main\\res\\layout\\activity_main_items.xml"
+    },
+    {
+        "merged": "F:\\PrinterToolsA\\app\\build\\intermediates\\res\\merged\\debug\\drawable_qrcode.png.flat",
+        "source": "F:\\PrinterToolsA\\app\\src\\main\\res\\drawable\\qrcode.png"
+    },
+    {
+        "merged": "F:\\PrinterToolsA\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_launcher.png.flat",
+        "source": "F:\\PrinterToolsA\\app\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "F:\\PrinterToolsA\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_launcher.png.flat",
+        "source": "F:\\PrinterToolsA\\app\\src\\main\\res\\drawable-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "F:\\PrinterToolsA\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_print_qrcode.xml.flat",
+        "source": "F:\\PrinterToolsA\\app\\src\\main\\res\\layout\\activity_print_qrcode.xml"
+    },
+    {
+        "merged": "F:\\PrinterToolsA\\app\\build\\intermediates\\res\\merged\\debug\\drawable_chage.jpg.flat",
+        "source": "F:\\PrinterToolsA\\app\\src\\main\\res\\drawable\\chage.jpg"
+    },
+    {
+        "merged": "F:\\PrinterToolsA\\app\\build\\intermediates\\res\\merged\\debug\\drawable_rela.xml.flat",
+        "source": "F:\\PrinterToolsA\\app\\src\\main\\res\\drawable\\rela.xml"
+    },
+    {
+        "merged": "F:\\PrinterToolsA\\app\\build\\intermediates\\res\\merged\\debug\\raw_qs975.bin.flat",
+        "source": "F:\\PrinterToolsA\\app\\src\\main\\res\\raw\\qs975.bin"
+    },
+    {
+        "merged": "F:\\PrinterToolsA\\app\\build\\intermediates\\res\\merged\\debug\\drawable_setting.png.flat",
+        "source": "F:\\PrinterToolsA\\app\\src\\main\\res\\drawable\\setting.png"
+    },
+    {
+        "merged": "F:\\PrinterToolsA\\app\\build\\intermediates\\res\\merged\\debug\\drawable_progressbar_color.xml.flat",
+        "source": "F:\\PrinterToolsA\\app\\src\\main\\res\\drawable\\progressbar_color.xml"
+    },
+    {
+        "merged": "F:\\PrinterToolsA\\app\\build\\intermediates\\res\\merged\\debug\\drawable_printer.png.flat",
+        "source": "F:\\PrinterToolsA\\app\\src\\main\\res\\drawable\\printer.png"
+    },
+    {
+        "merged": "F:\\PrinterToolsA\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_launcher.png.flat",
+        "source": "F:\\PrinterToolsA\\app\\src\\main\\res\\drawable-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "F:\\PrinterToolsA\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_print_items.xml.flat",
+        "source": "F:\\PrinterToolsA\\app\\src\\main\\res\\layout\\activity_print_items.xml"
+    },
+    {
+        "merged": "F:\\PrinterToolsA\\app\\build\\intermediates\\res\\merged\\debug\\drawable_progressnar_color.xml.flat",
+        "source": "F:\\PrinterToolsA\\app\\src\\main\\res\\drawable\\progressnar_color.xml"
+    },
+    {
+        "merged": "F:\\PrinterToolsA\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_update.png.flat",
+        "source": "F:\\PrinterToolsA\\app\\src\\main\\res\\drawable-hdpi\\ic_update.png"
+    },
+    {
+        "merged": "F:\\PrinterToolsA\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_print_blackmark.xml.flat",
+        "source": "F:\\PrinterToolsA\\app\\src\\main\\res\\layout\\activity_print_blackmark.xml"
+    },
+    {
+        "merged": "F:\\PrinterToolsA\\app\\build\\intermediates\\res\\merged\\debug\\drawable_barcode.png.flat",
+        "source": "F:\\PrinterToolsA\\app\\src\\main\\res\\drawable\\barcode.png"
+    }
+]
