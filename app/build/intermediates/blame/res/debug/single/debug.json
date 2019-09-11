@@ -24,16 +24,16 @@
         "source": "F:\\PrinterToolsA\\app\\src\\main\\res\\drawable\\edittext.xml"
     },
     {
-        "merged": "F:\\PrinterToolsA\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_print_image.xml.flat",
-        "source": "F:\\PrinterToolsA\\app\\src\\main\\res\\layout\\activity_print_image.xml"
+        "merged": "F:\\PrinterToolsA\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_timg.jpg.flat",
+        "source": "F:\\PrinterToolsA\\app\\src\\main\\res\\drawable-hdpi\\timg.jpg"
     },
     {
         "merged": "F:\\PrinterToolsA\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_print_barcode.xml.flat",
         "source": "F:\\PrinterToolsA\\app\\src\\main\\res\\layout\\activity_print_barcode.xml"
     },
     {
-        "merged": "F:\\PrinterToolsA\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_timg.jpg.flat",
-        "source": "F:\\PrinterToolsA\\app\\src\\main\\res\\drawable-hdpi\\timg.jpg"
+        "merged": "F:\\PrinterToolsA\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_print_image.xml.flat",
+        "source": "F:\\PrinterToolsA\\app\\src\\main\\res\\layout\\activity_print_image.xml"
     },
     {
         "merged": "F:\\PrinterToolsA\\app\\build\\intermediates\\res\\merged\\debug\\menu_main.xml.flat",

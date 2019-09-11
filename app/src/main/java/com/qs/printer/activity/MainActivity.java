@@ -17,6 +17,7 @@ import android.widget.SimpleAdapter;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.Iori.PrintUtils;
 import com.qs.helper.printer.Device;
 import com.qs.helper.printer.PrintService;
 import com.qs.helper.printer.PrinterClass;
@@ -59,27 +60,43 @@ public class MainActivity extends ListActivity {
 						"description" }, new int[] { android.R.id.text1,
 						android.R.id.text2 }));
 
-		mhandler = new Handler() {
-			public void handleMessage(Message msg) {
-				switch (msg.what) {
+		mhandler = new Handler()
+		{
+			public void handleMessage(Message msg)
+			{
+				switch (msg.what)
+				{
 				case MESSAGE_READ:
 					byte[] readBuf = (byte[]) msg.obj;
 					Log.e(TAG, "readBuf:" + readBuf[0]);
-					if (readBuf[0] == 0x13) {
+					if (readBuf[0] == 0x13)
+					{
 						PrintService.isFUll = true;
 						ShowMsg(getResources().getString(R.string.str_printer_state)+":"+getResources().getString(R.string.str_printer_bufferfull));
-					} else if (readBuf[0] == 0x11) {
+					}
+					else if (readBuf[0] == 0x11)
+					{
 						PrintService.isFUll = false;
 						ShowMsg(getResources().getString(R.string.str_printer_state)+":"+getResources().getString(R.string.str_printer_buffernull));
-					} else if (readBuf[0] == 0x08) {
+					}
+					else if (readBuf[0] == 0x08)
+					{
 						ShowMsg(getResources().getString(R.string.str_printer_state)+":"+getResources().getString(R.string.str_printer_nopaper));
-					} else if (readBuf[0] == 0x01) {
+					}
+					else if (readBuf[0] == 0x01)
+					{
 						//ShowMsg(getResources().getString(R.string.str_printer_state)+":"+getResources().getString(R.string.str_printer_printing));
-					}  else if (readBuf[0] == 0x04) {
+					}
+					else if (readBuf[0] == 0x04)
+					{
 						ShowMsg(getResources().getString(R.string.str_printer_state)+":"+getResources().getString(R.string.str_printer_hightemperature));
-					} else if (readBuf[0] == 0x02) {
+					}
+					else if (readBuf[0] == 0x02)
+					{
 						ShowMsg(getResources().getString(R.string.str_printer_state)+":"+getResources().getString(R.string.str_printer_lowpower));
-					}else {
+					}
+					else
+					{
 						String readMessage = new String(readBuf, 0, msg.arg1);
 						Log.e("", "readMessage"+readMessage);
 						if (readMessage.contains("800"))// 80mm paper
@@ -98,7 +115,8 @@ public class MainActivity extends ListActivity {
 					}
 					break;
 				case MESSAGE_STATE_CHANGE:// 蓝牙连接状态
-					switch (msg.arg1) {
+					switch (msg.arg1)
+					{
 					case PrinterClass.STATE_CONNECTED:// 已经连接
 						break;
 					case PrinterClass.STATE_CONNECTING:// 正在连接
@@ -112,6 +130,43 @@ public class MainActivity extends ListActivity {
 						pl.write(new byte[] { 0x1b, 0x2b });// 检测打印机型号
 						Toast.makeText(getApplicationContext(),
 								"SUCCESS_CONNECT", Toast.LENGTH_SHORT).show();
+						pl.write(PrintUtils.ALIGN_CENTER);
+						pl.write(new byte[]{0x1B, 0x21, 0x00});
+                        pl.write(new byte[]{0x1B, 0x4d, 0x00});
+                        PrintUtils.printText("美食餐厅\n\n");
+                        PrintUtils.selectCommand(PrintUtils.DOUBLE_HEIGHT_WIDTH);
+                        PrintUtils.printText("桌号：1号桌\n\n");
+                        PrintUtils.selectCommand(PrintUtils.NORMAL);
+                        pl.write(new byte[]{0x1B, 0x21, 0x00});
+                        pl.write(new byte[]{0x1B, 0x4d, 0x00});
+                        PrintUtils.selectCommand(PrintUtils.ALIGN_LEFT);
+                        PrintUtils.printText(PrintUtils.printTwoData("订单编号", "201507161515\n"));
+                        PrintUtils.printText(PrintUtils.printTwoData("点菜时间", "2016-02-16 10:46\n"));
+                        PrintUtils.printText(PrintUtils.printTwoData("上菜时间", "2016-02-16 11:46\n"));
+                        PrintUtils.printText(PrintUtils.printTwoData("人数：2人", "收银员：张三\n"));
+
+                        PrintUtils.printText("------------------------------\n");
+                        PrintUtils.selectCommand(PrintUtils.BOLD);
+                        PrintUtils.printText(PrintUtils.printThreeData("项目", "数量", "金额\n"));
+                        PrintUtils.printText("------------------------------\n");
+                        PrintUtils.selectCommand(PrintUtils.BOLD_CANCEL);
+                        PrintUtils.printText(PrintUtils.printThreeData("面", "1", "0.00\n"));
+                        PrintUtils.printText(PrintUtils.printThreeData("米饭", "1", "6.00\n"));
+                        PrintUtils.printText(PrintUtils.printThreeData("铁板烧", "1", "26.00\n"));
+                        PrintUtils.printText(PrintUtils.printThreeData("一个测试", "1", "226.00\n"));
+                        PrintUtils.printText(PrintUtils.printThreeData("牛肉面啊啊", "1", "2226.00\n"));
+                        PrintUtils.printText(PrintUtils.printThreeData("牛肉面啊啊啊牛肉面啊啊啊", "888", "98886.00\n"));
+
+                        PrintUtils.printText("--------------------------------\n");
+                        PrintUtils.printText(PrintUtils.printTwoData("合计", "53.50\n"));
+                        PrintUtils.printText(PrintUtils.printTwoData("抹零", "3.50\n"));
+                        PrintUtils.printText("--------------------------------\n");
+                        PrintUtils.printText(PrintUtils.printTwoData("应收", "50.00\n"));
+                        PrintUtils.printText("--------------------------------\n");
+
+                        PrintUtils.selectCommand(PrintUtils.ALIGN_LEFT);
+                        PrintUtils.printText("备注：不要辣、不要香菜");
+                        PrintUtils.printText("\n\n\n");
 						break;
 					case PrinterClass.FAILED_CONNECT://连接失败
 						Toast.makeText(getApplicationContext(),
@@ -130,20 +185,26 @@ public class MainActivity extends ListActivity {
 			}
 		};
 
-		handler = new Handler() {
+		handler = new Handler()
+		{
 			@Override
-			public void handleMessage(Message msg) {
+			public void handleMessage(Message msg)
+			{
 				super.handleMessage(msg);
-				switch (msg.what) {
+				switch (msg.what)
+				{
 				case 0:
 					break;
 				case 1:// 获取蓝牙端口号					
-					Device d = (Device) msg.obj;
-					if (d != null) {
-						if (PrintSettingActivity.deviceList == null) {
+					Device d = (Device) msg.obj; //获取设备信息 deviceAddress-> 78:4F:43:89:70:CB， deviceName->丁春宇的MacBook Pro
+					if (d != null)
+					{
+						if (PrintSettingActivity.deviceList == null)
+						{
 							PrintSettingActivity.deviceList = new ArrayList<Device>();
 						}
-						if (!checkData(PrintSettingActivity.deviceList, d)) {
+						if (!checkData(PrintSettingActivity.deviceList, d))
+						{
 							PrintSettingActivity.deviceList.add(d);
 						}
 					}
@@ -154,37 +215,50 @@ public class MainActivity extends ListActivity {
 			}
 		};
 
-		tv_update = new Thread() {
-			public void run() {
-				while (true) {
-					if (checkState) {
-						try {
+		tv_update = new Thread()
+		{
+			public void run()
+			{
+				while (true)
+				{
+					if (checkState)
+					{
+						try
+						{
 							Thread.sleep(500);
-						} catch (InterruptedException e) {
+						}
+						catch (InterruptedException e)
+						{
 							// TODO Auto-generated catch block
 							e.printStackTrace();
 						}
-						textView_state.post(new Runnable() {
+						textView_state.post(new Runnable()
+						{
 							@Override
-							public void run() {
+							public void run()
+							{
 								// TODO Auto-generated method stub
-								if (MainActivity.pl != null) {
-									if (MainActivity.pl.getState() == PrinterClass.STATE_CONNECTED) {
+								if (MainActivity.pl != null)
+								{
+									if (MainActivity.pl.getState() == PrinterClass.STATE_CONNECTED)
+									{
 										//已经连接
-										textView_state
-												.setText(MainActivity.this
+										textView_state.setText(MainActivity.this
 														.getResources()
 														.getString(
 																R.string.str_connected));
-									} else if (MainActivity.pl.getState() == PrinterClass.STATE_CONNECTING) {
+									}
+									else if (MainActivity.pl.getState() == PrinterClass.STATE_CONNECTING)
+									{
 										//连接中
-										textView_state
-												.setText(MainActivity.this
+										textView_state.setText(MainActivity.this
 														.getResources()
 														.getString(
 																R.string.str_connecting));
-									} else if (MainActivity.pl.getState() == PrinterClass.LOSE_CONNECT
-											|| MainActivity.pl.getState() == PrinterClass.FAILED_CONNECT) {
+									}
+									else if (MainActivity.pl.getState() == PrinterClass.LOSE_CONNECT
+											|| MainActivity.pl.getState() == PrinterClass.FAILED_CONNECT)
+									{
 										//丢失连接和连接失败
 										checkState = false;
 										textView_state
@@ -198,8 +272,10 @@ public class MainActivity extends ListActivity {
 										intent.addFlags(Intent.FLAG_ACTIVITY_REORDER_TO_FRONT);
 										//跳转至PrintSettingActivity
 										startActivity(intent);
-									} else {
-										//无连接
+									}
+									else
+									{
+										//无连接 state = 0;
 										textView_state
 												.setText(MainActivity.this
 														.getResources()

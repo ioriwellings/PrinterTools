@@ -5,7 +5,14 @@
 	android:orientation="vertical"
 	>
 
-    <TextView
+	<TextView
+		android:id="@+id/textView"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:gravity="center_horizontal"
+		android:text="MainActivity" />
+
+	<TextView
         android:id="@+id/textView_state"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

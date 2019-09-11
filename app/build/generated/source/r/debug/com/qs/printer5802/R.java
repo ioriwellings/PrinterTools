@@ -80,12 +80,14 @@ public final class R {
     public static final int setting_text=0x7f040029;
     public static final int textPrint_image=0x7f04002a;
     public static final int textPrint_text=0x7f04002b;
-    public static final int textView1=0x7f04002c;
-    public static final int textView_state=0x7f04002d;
-    public static final int title=0x7f04002e;
-    public static final int tv_download_state=0x7f04002f;
-    public static final int tv_status=0x7f040030;
-    public static final int update=0x7f040031;
+    public static final int textView=0x7f04002c;
+    public static final int textView1=0x7f04002d;
+    public static final int textView2=0x7f04002e;
+    public static final int textView_state=0x7f04002f;
+    public static final int title=0x7f040030;
+    public static final int tv_download_state=0x7f040031;
+    public static final int tv_status=0x7f040032;
+    public static final int update=0x7f040033;
   }
   public static final class layout {
     public static final int activity_main_items=0x7f050000;

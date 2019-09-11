@@ -17,7 +17,8 @@ import com.qs.printer5802.R;
  * @author Administrator
  *
  */
-public class PrintActivity extends Activity implements OnClickListener{
+public class PrintActivity extends Activity implements OnClickListener
+{
 	
 	private TextView textPrint_text,imagePrint_text,barPrint_text,eqPrint_text,setting_text,codeChage_text;
 	private ImageView textPrint_image,imagePrint_image,barPrint_image,eqPrint_image,setting_image,codeChage_image;
@@ -46,7 +47,8 @@ public class PrintActivity extends Activity implements OnClickListener{
 	/**
 	 * ≥ı ºªØ
 	 */
-	private void init() {
+	private void init()
+	{
 		// TODO Auto-generated method stub
 		textPrint_text=(TextView) findViewById(R.id.textPrint_text);
 		imagePrint_text=(TextView) findViewById(R.id.imagePrint_text);
@@ -98,7 +100,7 @@ public class PrintActivity extends Activity implements OnClickListener{
 	@Override
 	protected void onDestroy() {
 		// TODO Auto-generated method stub
-		MainActivity.pl.disconnect();
+		//MainActivity.pl.disconnect();
 		super.onDestroy();
 	}
 	
